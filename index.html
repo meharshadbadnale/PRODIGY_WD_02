@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+    <link rel="shortcut icon" href="head image.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div class="container">
+        <h1>STOPWATCH</h1>
+        <div id="stopwatch" class="stopwatch-display">00:00:00</div>
+        <div class="buttons">
+            <button id="startBtn" class="control-btn">Start</button>
+            <button id="pauseBtn" class="control-btn">Pause</button>
+            <button id="resetBtn" class="control-btn">Reset</button>
+            <button id="lapBtn" class="control-btn">Lap</button>
+        </div>
+        <ul id="laps" class="laps-list"></ul>
+        <div class="theme-toggle">
+            <span id="lightMode" class="emoji" style="display: none; cursor: pointer;">🌞</span>
+            <span id="darkMode" class="emoji" style="cursor: pointer;">🌙</span>
+        </div>
+    </div>
+</body>
+</html>
